@@ -13,13 +13,14 @@ The singer/other users can make their own selections to see all annotations made
 ## Run
 To run this project, clone this repository, then:
 ```
-cd trompa-poc-sheetshare
+cd trompa-sheetshare-poc
 npm install
 npm start
 ```
-Now point your web browser at https://localhost:8080.
+Browse at https://localhost:8080.
 
 The poc uses Firebase. Currently it points to a DB made by me, but you can set one up yourself.
+The conductor (for now) adds the `?conductor=1433622342352` query to the URL.
 
 ## Next Up
 - Implement Solid Pods
